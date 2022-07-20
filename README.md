@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this guide, we ask users to answer some questions about thirdweb before they can mint an NFT using [signature-based minting](!
+In this guide, we ask users to answer some questions about thirdweb before they can mint an NFT using [signature-based minting](https://portal.thirdweb.com/advanced-features/on-demand-minting)!
 
 ## Tools:
 
