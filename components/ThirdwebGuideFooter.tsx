@@ -17,10 +17,7 @@ export default function ThirdwebGuideFooter() {
         }}
         role="button"
         onClick={() =>
-          window.open(
-            "https://github.com/thirdweb-example/signature-based-minting",
-            "_blank"
-          )
+          window.open("https://github.com/thirdweb-example/quiz", "_blank")
         }
       />
 
@@ -38,10 +35,7 @@ export default function ThirdwebGuideFooter() {
           role="button"
           style={{ cursor: "pointer" }}
           onClick={() =>
-            window.open(
-              "https://github.com/thirdweb-example/signature-based-minting",
-              "_blank"
-            )
+            window.open("https://github.com/thirdweb-example/quiz", "_blank")
           }
         />
       </div>
