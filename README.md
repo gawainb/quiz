@@ -2,11 +2,7 @@
 
 ## Introduction
 
-In this guide, we will utilize signature-based minting of NFTs to create a "community-built" NFT collection, where each user mints and owns their own NFT based on specific conditions that we provide.
-
-By the end, we'll have an NFT collection of NFTs that are all animal names, as specified in the [animalNames.ts](animalNames.ts) file.
-
-**Check out the Demo here**: https://signature-based-minting.thirdweb-example.com/
+In this guide, we ask users to answer some questions about thirdweb before they can mint an NFT using signature-based minting.
 
 ## Tools:
 
