@@ -6,6 +6,7 @@ import {
   useAddress,
   useEdition,
   useMetamask,
+  useWalletConnect,
   useNetwork,
   useNetworkMismatch,
 } from "@thirdweb-dev/react";
@@ -14,15 +15,21 @@ import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 const questions = [
   {
     question: "Question 1",
-    text: "How much cheaper are thirdweb pre-built contracts to deploy than regular contracts?",
-    options: ["$5", "10 times cheaper!", "1 million"],
-    answerIndex: 1,
+    text: "What are NFTs?",
+    options: ["Non-Fungible Tokens", "Network File Transfer", "No Free Ticket"],
+    answerIndex: 0,
   },
   {
     question: "Question 2",
-    text: "How much does thirdweb cost to use?",
-    options: ["It's free!", "5% Fees", "Too much money"],
-    answerIndex: 0,
+    text: "Can you make money from owning NFTs?",
+    options: ["Yes", "Sometimes", "No"],
+    answerIndex: 1,
+  },
+  {
+    question: "Question 3",
+    text: "What can you not do with an NFT?",
+    options: ["Buy real estate", "Transfer", "Burn", "Delete"],
+    answerIndex: 3,
   },
 ];
 
@@ -36,7 +43,7 @@ export default function QuizContainer() {
   const [failed, setFailed] = useState(false);
 
   const editionContract = useEdition(
-    "0x06379A619D5fcd23ABc7346022c4ad76D92D39f9"
+    "0x032A9020143Bd4200aC02a08F567a8251A532Aaf"
   );
 
   // This function calls a Next JS API route that mints an NFT with signature-based minting.

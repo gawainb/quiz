@@ -19,13 +19,13 @@ export default async function server(
     const sdk = ThirdwebSDK.fromPrivateKey(
       // Your wallet private key (read it in from .env.local file)
       process.env.PRIVATE_KEY as string,
-      "goerli"
+      "mumbai"
     );
 
     // Load the NFT Collection via it's contract address using the SDK
     const editionContract = sdk.getEdition(
       // Replace this with your NFT Collection contract address
-      "0x06379A619D5fcd23ABc7346022c4ad76D92D39f9"
+      "0x032A9020143Bd4200aC02a08F567a8251A532Aaf"
     );
 
     // Generate the signature for the page NFT

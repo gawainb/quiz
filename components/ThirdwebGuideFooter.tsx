@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function ThirdwebGuideFooter() {
   return (
@@ -28,14 +29,15 @@ export default function ThirdwebGuideFooter() {
           right: 18,
         }}
       >
-        <img
+        <Image
+          alt="github"
           src={"/github.png"}
           width={40}
           height={40}
           role="button"
           style={{ cursor: "pointer" }}
           onClick={() =>
-            window.open("https://github.com/thirdweb-example/quiz", "_blank")
+            window.open("https://github.com/gawainb/quiz", "_blank")
           }
         />
       </div>

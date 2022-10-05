@@ -6,7 +6,7 @@ import ThirdwebGuideFooter from "../components/ThirdwebGuideFooter";
 import "../styles/globals.css";
 
 // This is the chainId your dApp will work on.
-const activeChainId = ChainId.Goerli;
+const activeChainId = ChainId.Mumbai;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

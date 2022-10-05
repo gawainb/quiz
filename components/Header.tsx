@@ -1,6 +1,7 @@
 import { useAddress, useDisconnect, useMetamask } from "@thirdweb-dev/react";
 import React from "react";
 import styles from "./styles/Home.module.css";
+import Image from "next/image";
 
 export default function Header() {
   const address = useAddress();
@@ -16,7 +17,7 @@ export default function Header() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={`/logo.png`} alt="Thirdweb Logo" width={135} />
+            <Image src={`/logo.png`} alt="Thirdweb Logo" width={135} />
           </a>
         </div>
       </div>
