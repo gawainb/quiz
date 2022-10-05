@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Github from "../public/github.png"
 
 export default function ThirdwebGuideFooter() {
   return (
@@ -31,7 +32,7 @@ export default function ThirdwebGuideFooter() {
       >
         <Image
           alt="github"
-          src={"/github.png"}
+          src={Github}
           width={40}
           height={40}
           role="button"

@@ -30,7 +30,7 @@ const Home: NextPage = () => {
     }
 
     if (isOnWrongNetwork) {
-      switchNetwork?.(ChainId.Goerli);
+      switchNetwork?.(ChainId.Polygon);
       return;
     }
 

@@ -55,7 +55,7 @@ export default function QuizContainer() {
     }
 
     if (isOnWrongNetwork) {
-      switchNetwork && switchNetwork(ChainId.Mumbai);
+      switchNetwork && switchNetwork(ChainId.Polygon);
       return;
     }
 
